@@ -15,6 +15,7 @@ public class Doctor {
     @GeneratedValue(strategy =GenerationType.IDENTITY)
     @Column(name = "doctor_id")
     private Integer id;
+    @Column(name = "doctor_cedula")
     private String cedula;
     @Column(name = "doctor_nombre")
     private String nombre;

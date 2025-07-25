@@ -3,6 +3,7 @@ package uce.edu.ec.api.service.to;
 public class DoctorTo {
     
     private Integer id;
+    private String cedula;
     private String nombre;
     private String apellido;
     private String genero;
@@ -30,6 +31,12 @@ public class DoctorTo {
     }
     public void setGenero(String genero) {
         this.genero = genero;
+    }
+    public String getCedula() {
+        return cedula;
+    }
+    public void setCedula(String cedula) {
+        this.cedula = cedula;
     }
 
 
